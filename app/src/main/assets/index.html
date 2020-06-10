@@ -1,0 +1,17 @@
+<html>
+
+<head>
+    <!-- <script src="vue.js"></script> -->
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+</head>
+<body>
+    <div id="top" style="float: top;background-color: #F44336;">
+
+    </div>
+
+</body>
+<script>
+    var allsong = eval('(' + Api.getAllSong() + ')');
+    document.getElementById("top").innerText=json[0]['size'];
+</script>
+</html>
