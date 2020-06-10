@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <ImageView
+        android:id="@+id/iv_icon"
+        android:layout_width="@android:dimen/notification_large_icon_width"
+        android:layout_height="@android:dimen/notification_large_icon_height"
+        android:layout_gravity="center_vertical"
+        android:contentDescription="@null"
+        android:scaleType="fitCenter"
+        android:src="@drawable/ic_launcher" />
+
+    <LinearLayout
+        android:layout_width="230dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_weight="1.0"
+        android:baselineAligned="false"
+        android:orientation="vertical"
+
+
+        android:paddingTop="2.0dp"
+        android:paddingBottom="2.0dp"
+        tools:ignore="InefficientWeight">
+
+
+            <TextView
+                android:id="@+id/tv_title"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="15dp"
+                android:text="null"
+                android:textAppearance="@android:style/TextAppearance.DeviceDefault"
+                tools:ignore="HardcodedText" />
+
+            <TextView
+                android:id="@+id/tv_singer"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="15dp"
+                android:text="null"
+                android:ellipsize="end"
+                android:fadingEdge="horizontal"
+                android:maxLines="1"
+                android:textAppearance="@android:style/TextAppearance.StatusBar.EventContent"
+                tools:ignore="HardcodedText" />
+
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="103dp"
+        android:paddingLeft="20dp"
+        android:layout_height="fill_parent"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/iv_play_pause"
+            android:layout_width="40dp"
+            android:layout_height="match_parent"
+            android:contentDescription="@null"
+            android:scaleType="fitCenter"
+            android:src="@drawable/ic_media_pause" />
+
+        <ImageView
+            android:id="@+id/iv_next"
+            android:layout_width="40dp"
+            android:layout_height="match_parent"
+            android:contentDescription="@null"
+            android:scaleType="fitCenter"
+            android:src="@drawable/ic_media_next" />
+    </LinearLayout>
+
+
+</LinearLayout>
