@@ -1,0 +1,2 @@
+include ':app'
+rootProject.name='pk_tjy_player'

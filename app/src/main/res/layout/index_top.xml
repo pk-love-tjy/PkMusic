@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:fitsSystemWindows="true"
+    android:layout_height="@dimen/play_bar_height"
+    android:background="@color/red_bg"
+    android:orientation="horizontal">
+
+    <ImageButton
+        android:id="@+id/menu_button"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="@color/tran"
+        android:padding="0dp"
+        android:layout_gravity="left|center"
+        android:scaleType="centerInside"
+        android:src="@drawable/ic_menu_moreoverflow_normal_holo_light"
+        />
+    <ImageView
+        android:id="@+id/bendi_music"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:src="@drawable/pkmusic" />
+
+
+    <ImageButton
+        android:id="@+id/screen_button"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_gravity="right|center"
+        android:scaleType="centerInside"
+        android:padding="0dp"
+        android:background="@color/tran"
+        android:src="@drawable/ic_menu_search"
+        tools:ignore="ContentDescription" />
+</FrameLayout>
