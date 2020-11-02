@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # PkMusic
 
 #### 介绍
@@ -18,3 +19,6 @@
 1.  Chaquopy（com.chaquo.python:gradle:7.0.2）
 2.  okhttp3（com.squareup.okhttp3:okhttp:3.12.0）
 3.  fastjson（com.alibaba.fastjson:1.2.12）
+=======
+# PkMusic
+>>>>>>> 3c1c7bb6f421a7b77ca31febb3e3fa5a69eded26
