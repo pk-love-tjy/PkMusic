@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:orientation="vertical">
+
+
+
+
+     <LinearLayout
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:fitsSystemWindows="true"
+         android:background="@color/red_bg">
+
+            <ImageView
+                android:id="@+id/iv_music_info_cover"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:contentDescription="@null"
+                android:focusable="true"
+                android:focusableInTouchMode="true"
+                android:scaleType="fitXY"
+                android:src="@drawable/ic_launcher"
+                />
+     </LinearLayout>
+
+
+                <TextView
+                    android:id="@+id/et_music_info_title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="40dp"
+                    android:layout_marginTop="20dp"
+                    android:text="标题"
+
+
+
+                    android:textSize="16sp" />
+
+
+
+
+                <TextView
+                    android:id="@+id/et_music_info_artist"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="40dp"
+                    android:layout_marginTop="20dp"
+                    android:text="艺术家"
+
+                    android:textSize="16sp" />
+
+
+
+
+                <TextView
+                    android:id="@+id/et_music_info_album"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="40dp"
+                    android:layout_marginTop="20dp"
+                    android:text="专辑"
+
+
+                    android:textSize="16sp" />
+
+
+                <TextView
+                    android:id="@+id/tv_music_info_duration_m"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginLeft="40dp"
+
+                    android:text="播放时长"
+                    android:textSize="16sp" />
+    <TextView
+        android:id="@+id/tv_music_info_duration_s"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="40dp"
+
+        android:text="播放时长(毫秒)："
+        android:textSize="16sp" />
+
+
+
+                <TextView
+                    android:id="@+id/tv_music_info_file_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginLeft="40dp"
+
+                    android:text="文件名称"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:id="@+id/tv_music_info_file_size"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginLeft="40dp"
+
+                    android:text="文件大小"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:id="@+id/tv_music_info_file_path"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginLeft="40dp"
+                    android:text="文件路径"
+                    android:textSize="16sp" />
+    <TextView
+        android:id="@+id/tv_music_info_lrc_file_path"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="40dp"
+        android:text="歌词文件路径："
+        android:textSize="16sp" />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/add_play_list_song"
+        android:layout_gravity="center"
+        android:text="加入播放列表"
+        tools:ignore="HardcodedText">
+
+    </Button>
+
+
+</LinearLayout>
